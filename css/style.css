@@ -4243,6 +4243,16 @@ ul {
   }
 }
 
+.dot {
+  position: relative;
+  left: 30px; 
+  height: 40px;
+  width: 45px;
+  background-color: #fff;
+  border-radius: 50%;
+  display: inline-block;
+}
+
 /* line 25, E:/167 Bizcon Business/Bizcon_html/sass/_copyright_part.scss */
 .copyright_part .footer-social a {
   width: 35px;
