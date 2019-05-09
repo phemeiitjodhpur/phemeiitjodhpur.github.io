@@ -3402,7 +3402,7 @@ input[type="button"].btn-block {
     .nav-tabs .nav-link:hover, .nav-tabs .nav-link:focus {
       border-color: #e9ecef #e9ecef #dee2e6; }
     .nav-tabs .nav-link.disabled {
-      color: #6c757d;
+      color:#6c757d;
       background-color: transparent;
       border-color: transparent; }
   .nav-tabs .nav-link.active,
@@ -3430,7 +3430,7 @@ input[type="button"].btn-block {
   text-align: center; }
 
 .nav-justified .nav-item {
-  -ms-flex-preferred-size: 0;
+  -ms-flex-preferred-size: 0
   flex-basis: 0;
   -webkit-box-flex: 1;
   -ms-flex-positive: 1;
@@ -8042,7 +8042,7 @@ h1, h2, h3, h4, h5,
   z-index: 3; }
   @media (max-width: 991.98px) {
     .ftco-navbar-light {
-      background: #000000 !important;
+      background: #fff !important;  /* nav bar color here*/
       position: relative;
       top: 0;
       padding-top: 0;
@@ -8061,7 +8061,7 @@ h1, h2, h3, h4, h5,
       color: #000000 !important; }
     @media (max-width: 991.98px) {
       .ftco-navbar-light .navbar-brand {
-        color: #fff; } }
+        color: #000000; } }
   @media (max-width: 991.98px) {
     .ftco-navbar-light .navbar-nav {
       padding-bottom: 20px;
@@ -8116,7 +8116,7 @@ h1, h2, h3, h4, h5,
         padding-top: 0;
         color: #fff; } }
   .ftco-navbar-light .navbar-nav > .nav-item.cta > a {
-    color: #fff;
+    color: #fff;   /* doubtful*/
     border: 1px solid #77C0E0;
     padding-top: .7rem;
     padding-bottom: .7rem;
@@ -8130,7 +8130,7 @@ h1, h2, h3, h4, h5,
     border-radius: 5px; }
     .ftco-navbar-light .navbar-nav > .nav-item.cta > a span {
       display: inline-block;
-      color: #fff; }
+      color: #fff; }   /* doubtful*/
     .ftco-navbar-light .navbar-nav > .nav-item.cta > a:hover {
       background: #77C0E0;
       border: 1px solid #77C0E0; }
@@ -8151,7 +8151,7 @@ h1, h2, h3, h4, h5,
       color: #77C0E0; } }
   .ftco-navbar-light .navbar-toggler {
     border: none;
-    color: rgba(255, 255, 255, 0.5) !important;
+    color: rgba(0, 0, 0, 0.5) !important;
     cursor: pointer;
     padding-right: 0;
     text-transform: uppercase;
@@ -8179,7 +8179,7 @@ h1, h2, h3, h4, h5,
     .ftco-navbar-light.scrolled .nav-item.active > a {
       color: #77C0E0 !important; }
     .ftco-navbar-light.scrolled .nav-item.cta > a {
-      color: #fff !important;
+      color: #fff !important;  /* doubtful*/
       background: #77C0E0;
       border: none !important;
       padding-top: 0.5rem !important;
