@@ -4701,6 +4701,10 @@ ul {
   background-size: cover;
 }
 
+.edit_breadcrum{
+  background-image: url("../img/webD.jpg") !important;
+}
+
 /* line 4, E:/167 Bizcon Business/Bizcon_html/sass/_breadcrumb.scss */
 .breadcrumb {
   position: relative;
