@@ -75,7 +75,7 @@
     centerMode: true,
     responsive: [
       {
-        breakpoint: 480,
+        breakpoint: 0,
         settings: {
           centerMode: false,
         }
