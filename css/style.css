@@ -4700,7 +4700,19 @@ ul {
   background-repeat: no-repeat;
   background-size: cover;
 }
+.breadcrumb_bg_acads {
+  background-image: url("../img/acads.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 
+.breadcrumb_bg_extras {
+  background-image: url("../img/extra.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 .edit_breadcrum{
   background-image: url("../img/webD.jpg") !important;
 }
