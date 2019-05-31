@@ -4713,6 +4713,12 @@ ul {
   background-repeat: no-repeat;
   background-size: cover;
 }
+.breadcrumb_bg_campus {
+  background-image: url("../img/campus_life.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 .edit_breadcrum{
   background-image: url("../img/webD.jpg") !important;
 }
